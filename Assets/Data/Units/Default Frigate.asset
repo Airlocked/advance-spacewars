@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e1363bd056c5404087ebf97aaca7ba0, type: 3}
+  m_Name: Default Frigate
+  m_EditorClassIdentifier: 
+  unitName: Frigate
+  type: 3
+  unitHealth: 20
+  squadModelHealth: 20
+  squadSize: 1
+  squadFormationOffset: {x: 0, y: 0, z: 0}
+  prefab: {fileID: 1596093419712595044, guid: 9fe48963bb76b483bbbff9d3735c7ada, type: 3}
+  sphereColliderOrigin: {x: 0, y: 0, z: 0}
+  sphereColliderRadius: 5
+  moveDistance: 15
+  moveAngle: 90
+  turnAngleOnMove: 45
+  moveSpeedSeconds: 2
+  attackRadius: 40
+  weapons: []

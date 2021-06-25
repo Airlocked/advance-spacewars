@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e1363bd056c5404087ebf97aaca7ba0, type: 3}
+  m_Name: Default Fighter Squad
+  m_EditorClassIdentifier: 
+  unitName: Fighter Squad
+  type: 0
+  unitHealth: 10
+  squadModelHealth: 2
+  squadSize: 5
+  squadFormationOffset: {x: 0.4, y: 0, z: -0.6}
+  prefab: {fileID: 5171095585498514165, guid: b0dcbee105c2e47e6a96a7050694bf0a, type: 3}
+  sphereColliderOrigin: {x: 0, y: 0, z: -0.8}
+  sphereColliderRadius: 1
+  moveDistance: 30
+  moveAngle: 140
+  turnAngleOnMove: 90
+  moveSpeedSeconds: 2
+  attackRadius: 8
+  weapons: []
